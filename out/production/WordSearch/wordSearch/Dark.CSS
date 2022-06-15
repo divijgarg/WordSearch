@@ -1,0 +1,83 @@
+/**
+https://code.makery.ch/library/javafx-tutorial/part4/
+*/
+.background {
+    -fx-background-color: #1d1d1d;
+}
+
+.label {
+    -fx-font-size: 11pt;
+    -fx-font-family: "Arial";
+    -fx-text-fill: white;
+    -fx-opacity: 0.6;
+}
+
+.label-bright {
+    -fx-font-size: 11pt;
+    -fx-font-family: "Arial";
+    -fx-text-fill: white;
+    -fx-opacity: 1;
+}
+
+.label-header {
+    -fx-font-size: 32pt;
+    -fx-font-family: "Arial";
+    -fx-text-fill: white;
+    -fx-opacity: 1;
+}
+
+.menu-bar {
+    -fx-background-color: derive(#1d1d1d,20%);
+}
+
+
+.menu-bar .label {
+    -fx-font-size: 10pt;
+    -fx-font-family: "Arial";
+    -fx-text-fill: white;
+    -fx-opacity: 0.9;
+}
+
+.menu .left-container {
+    -fx-background-color: black;
+}
+
+.text-field {
+    -fx-font-size: 12pt;
+    -fx-font-family: "Arial";
+}
+.list-view{
+    -fx-color: #7777A1;
+}
+.list-cell{
+    -fx-color: #7777A1;
+    -fx-text-fill: black;
+}
+.list-cell:pressed{
+    -fx-background-color: #666666;
+    -fx-color:black;
+}
+/**
+ * Metro style Push Button
+ * Author: Pedro Duque Vieira
+ * http://pixelduke.wordpress.com/2012/10/23/jmetro-windows-8-controls-on-java/
+ */
+.button {
+    -fx-border-color: black;
+    -fx-background-color: black;
+    -fx-text-fill: white;
+    -fx-font-size: 12pt;
+    -fx-background-insets: 0 0 0 0, 0, 1, 2;
+
+}
+
+.button:hover {
+    -fx-background-color: blue;
+    -fx-color: blue;
+}
+
+.button:pressed{
+   -fx-background-color: green;
+}
+
+
